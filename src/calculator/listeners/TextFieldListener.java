@@ -20,7 +20,7 @@ public class TextFieldListener implements FocusListener {
     @Override
     public void focusGained(FocusEvent e) {
         if (field.getText().trim().equals(CalculatorJFrame.ENTER)) field.setText("");
-        field.setForeground(Color.WHITE);
+        field.setForeground(Color.GRAY);
     }
 
     @Override

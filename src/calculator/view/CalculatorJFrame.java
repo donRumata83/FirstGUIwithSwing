@@ -105,6 +105,7 @@ public class CalculatorJFrame extends JFrame {
         this.resultPanel = resultPanel;
 
         MyButton changeSkin = new MyButton("Change Skin");
+        changeSkin.setSize(150,50);
         changeSkin.addActionListener(new ChangeSkinListener(this));
         resultPanel.add(changeSkin);
     }
