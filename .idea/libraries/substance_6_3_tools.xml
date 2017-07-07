@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="substance-6.3-tools">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/substance-6.3-tools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
